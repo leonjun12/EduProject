@@ -1,4 +1,4 @@
-package com.zlj.service.model;
+package com.zlj.edu.model;
 
 /**
  * @author zlj

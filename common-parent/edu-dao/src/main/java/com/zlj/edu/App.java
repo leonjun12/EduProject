@@ -1,4 +1,4 @@
-package com.zlj.service;
+package com.zlj.edu;
 
 /**
  * Hello world!
