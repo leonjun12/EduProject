@@ -1,5 +1,8 @@
 package com.zlj.edu.service.base;
 
+import com.zlj.edu.mapper.UserMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+
 /**
  * @author zlj
  * @version 1.8
@@ -7,4 +10,7 @@ package com.zlj.edu.service.base;
  */
 public abstract class BaseServiceImpl<T> implements IBaseService<T>{
 
+//    统一管理dao
+    @Autowired
+       protected UserMapper userMapper;
 }
